@@ -6,14 +6,15 @@ import SignUpPage from "../pages/SignupPage";
 
 const routes = createBrowserRouter([
   {
+    path: "/signIn",
+    element: <SignInPage />,
+  },
+  {
     path: "/",
     element: <Home />,
     // errorElement: <ErrorPage />,
   },
-  {
-    path: "/signIn",
-    element: <SignInPage />,
-  },
+
   {
     path: "/signUp",
     element: <SignUpPage />,
